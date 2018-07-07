@@ -11,6 +11,9 @@
 ## 创建row
 >let row = KivTableViewRow()
 
+# Cell
+cell需要遵循KivListBaseCellProtocol接口，并实现相关方法。
+
 ## 将处理好的数据装配给row
 
 >  `row.cellClassType = Custom1TableViewCell.self `		//row对应cell的类型   
@@ -30,7 +33,7 @@
 自定义Datasuorce和Delegate只需继承KIVTableListDataSouce 类即可，添加自己需要的UITableViewDataSource,UITableViewDelegate方法。
 
 源码请查看Demo,效果如下图
-![](image/image1.png)
+![展示图](./image/image1.png)
 
 以上section和row使用的组合方式，也可以通过基础自己的section和row进行添加需要的属性，比如一些处理block。继承后可以自定义高度计算方法，通过row的get属性返回。如果是多层表，可以通过section和row来行程一个数据树，通过这个数据树就可以定位到每一层的数据。
 
