@@ -1,7 +1,7 @@
 # 目的
 本库的目的是让tableview的使用变得更简单和高效（还不支持collectionview）,并将datasource和delegate从vc中分离出来。同时将数据处理和UI设计分离,让用户专注数据处理和UI设计。
 # 如何使用  
-	直接拷贝源码到你的工程，或者编`KIVListKit`工程后直接使用生成的`framework`。
+直接拷贝源码到你的工程，或者编`KIVListKit`工程后直接使用生成的`framework`。
 
 # 用法
 ## 创建section
